@@ -1,73 +1,40 @@
-# React + TypeScript + Vite
+# Chronos Pomodoro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🍅 O que é a Técnica Pomodoro?
 
-Currently, two official plugins are available:
+A Técnica Pomodoro é um método de gestão do tempo criado por Francesco Cirillo no final da década de 1980.
+O objetivo dela é aumentar o foco, reduzir a procrastinação e melhorar a produtividade.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O nome **_“Pomodoro”_** vem de um timer de cozinha no formato de tomate que Cirillo usava enquanto estudava.
 
-## React Compiler
+## 🔥 Como funciona na prática?
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+A técnica é baseada em ciclos de concentração e descanso:
 
-## Expanding the ESLint configuration
+- 1️⃣ Escolha uma tarefa para fazer
+- 2️⃣ Ajuste um cronômetro para 25 minutos
+- 3️⃣ Trabalhe na tarefa até o tempo terminar
+- 4️⃣ Faça uma pausa curta de 5 minutos
+- 5️⃣ A cada quatro ciclos, faça uma pausa mais longa (15–30 minutos)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Esses ciclos de 25 minutos são chamados de “Pomodoros”.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 🎯 Por que funciona tão bem?
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Mantém o cérebro focado
+- Treina disciplina e ritmo
+- Evita desgaste mental
+- Ajuda a medir tempo gasto em cada atividade
+- Traz sensação de progresso e realização
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 💡 Exemplos de uso
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Estudar para provas
+- Programar e desenvolver software
+- Ler e escrever artigos
+- Organizar tarefas do trabalho
+- Criar projetos pessoais
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### ✨ Resumo em uma frase
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+A Técnica Pomodoro é um método simples que alterna períodos curtos de foco intenso com pausas estratégicas para aumentar produtividade e qualidade de trabalho.
