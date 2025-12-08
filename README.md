@@ -1,11 +1,25 @@
 # Chronos Pomodoro
 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Estudo](https://img.shields.io/badge/Estudo-1a1a1a?style=for-the-badge&logo=quicklook&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+
+Chronos Pomodoro combina simplicidade e eficiência para ajudar você a gerenciar
+seu tempo com a Técnica Pomodoro. Crie tarefas, acompanhe ciclos, estabeleça
+metas e mantenha o foco com lembretes de pausa e retorno ao trabalho. Uma
+experiência leve e intuitiva para quem quer produzir mais com equilíbrio.
+
 ## 🍅 O que é a Técnica Pomodoro?
 
-A Técnica Pomodoro é um método de gestão do tempo criado por Francesco Cirillo no final da década de 1980.
-O objetivo dela é aumentar o foco, reduzir a procrastinação e melhorar a produtividade.
+A Técnica Pomodoro é um método de gestão do tempo criado por Francesco Cirillo
+no final da década de 1980. O objetivo dela é aumentar o foco, reduzir a
+procrastinação e melhorar a produtividade.
 
-O nome **_“Pomodoro”_** vem de um timer de cozinha no formato de tomate que Cirillo usava enquanto estudava.
+O nome **_“Pomodoro”_** vem de um timer de cozinha no formato de tomate que
+Cirillo usava enquanto estudava.
 
 ## 🔥 Como funciona na prática?
 
@@ -37,4 +51,6 @@ Esses ciclos de 25 minutos são chamados de “Pomodoros”.
 
 ### ✨ Resumo em uma frase
 
-A Técnica Pomodoro é um método simples que alterna períodos curtos de foco intenso com pausas estratégicas para aumentar produtividade e qualidade de trabalho.
+A Técnica Pomodoro é um método simples que alterna períodos curtos de foco
+intenso com pausas estratégicas para aumentar produtividade e qualidade de
+trabalho.
