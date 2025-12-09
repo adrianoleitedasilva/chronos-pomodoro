@@ -7,7 +7,9 @@ export function App() {
 
   return (
     <>
-      <Heading />
+      <Heading attr={123} attr2='Careca'>
+        Olá Mundooooo
+      </Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam neque
         consectetur reiciendis autem expedita debitis, aut excepturi quidem
