@@ -23,3 +23,7 @@
   width: 6.4rem;
   height: 6.4rem;
 }
+
+.logoLink:hover {
+  filter: brightness(80%);
+}
