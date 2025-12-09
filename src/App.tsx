@@ -1,5 +1,3 @@
-import { Heading } from './components/Heading';
-import { TimerIcon } from 'lucide-react';
 import { Container } from './components/Container';
 import { Logo } from './components/Logo';
 
