@@ -1,10 +1,11 @@
 import { Container } from './components/Container';
+import { CountDown } from './components/CountDown';
+import { DefaultInput } from './components/DefaultInput';
 import { Logo } from './components/Logo';
 import { Menu } from './components/Menu';
 
 import './styles/theme.css';
 import './styles/global.css';
-import { CountDown } from './components/CountDown';
 
 export function App() {
   return (
@@ -24,8 +25,7 @@ export function App() {
       <Container>
         <form className='form' action=''>
           <div className='formRow'>
-            <label htmlFor='input'>Tarefa</label>
-            <input type='text' id='input' />
+            <DefaultInput id='meuInput' type='text' />
           </div>
 
           <div className='formRow'>
